@@ -32,6 +32,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Let's Get Started</h1>
         <ExpenseItems
           date={expenseDetails[0].date}
           expense={expenseDetails[0].expense}
