@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
+import ExpenseForm from "./components/NewExpense/NewExpense";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenseDetails = [
@@ -33,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Let's Get Started</h2>
+        <NewExpense />
         <Expenses expenseDetails={expenseDetails} />
       </header>
     </div>
