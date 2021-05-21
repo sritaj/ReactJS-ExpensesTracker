@@ -9,25 +9,25 @@ function App() {
     {
       id: 1,
       date: new Date(2021, 2, 10),
-      expense: "Internet Bills",
+      title: "Internet Bills",
       price: "15$",
     },
     {
       id: 1,
       date: new Date(2021, 2, 10),
-      expense: "Food Bills",
+      title: "Food Bills",
       price: "150$",
     },
     {
       id: 1,
       date: new Date(2021, 2, 10),
-      expense: "Electricity Bills",
+      title: "Electricity Bills",
       price: "8$",
     },
     {
       id: 1,
       date: new Date(2021, 2, 10),
-      expense: "Phone Bills",
+      title: "Phone Bills",
       price: "4$",
     },
   ];
