@@ -13,19 +13,19 @@ const DUMMY_EXPENSES = [
     price: "15",
   },
   {
-    id: 1,
+    id: 2,
     date: new Date(2021, 2, 10),
     title: "Food Bills",
     price: "150",
   },
   {
-    id: 1,
+    id: 3,
     date: new Date(2021, 2, 10),
     title: "Electricity Bills",
     price: "8",
   },
   {
-    id: 1,
+    id: 4,
     date: new Date(2021, 2, 10),
     title: "Phone Bills",
     price: "4",
