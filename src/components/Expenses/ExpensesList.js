@@ -16,7 +16,6 @@ const ExpensesList = (props) => {
           price={expense.price}
         />
       ))}
-      ;
     </ul>
   );
 };
